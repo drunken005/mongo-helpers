@@ -1,7 +1,7 @@
 {
   "name": "mongo-helpers",
   "version": "1.0.0",
-  "description": "一些用于辅助mongodb数据和集合操作的API [overwrite meteor/leaf4monkey:mongo-helpers]",
+  "description": "The supporting API for mongodb data and collection operations",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,13 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drunken005/mongo-helpers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drunken005/mongo-helpers/issues"
+  },
+  "homepage": "https://github.com/drunken005/mongo-helpers#readme"
 }
