@@ -1,0 +1,21 @@
+{
+  "name": "mongo-helpers",
+  "version": "1.0.0",
+  "description": "一些用于辅助mongodb数据和集合操作的API [overwrite meteor/leaf4monkey:mongo-helpers]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "flatten",
+    "rebuild",
+    "mongo-helpers"
+  ],
+  "author": "drunken",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
