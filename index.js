@@ -3,5 +3,4 @@
  * @fileoverview 请填写简要的文件说明.
  * @author event (xiangYuan geng)
  */
-let {MongoHelpers} = require('./src');
-module.exprts = MongoHelpers;
+module.exports = require('./src');

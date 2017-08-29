@@ -6,12 +6,12 @@
 
 const _ = require('lodash');
 
-let _isArrayObj = function(val){
-    if(!_.isArray(val)){
+let _isArrayObj = function (val) {
+    if (!_.isArray(val)) {
         return true;
     }
     let isObject = false;
-    _.each(val,(doc)=>_.isObject(doc) && ( isObject=true));
+    _.each(val, (doc)=>_.isObject(doc) && ( isObject = true));
     return isObject;
 };
 
@@ -272,7 +272,4 @@ let MongoHelpers = {
     }
 };
 
-
-module.exports = {
-    MongoHelpers
-};
+module.exports = MongoHelpers;
