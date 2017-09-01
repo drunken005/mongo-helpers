@@ -1,12 +1,12 @@
 /**
  * Created on 2017/8/28.
  * @fileoverview 请填写简要的文件说明.
- * @author event (xiangYuan geng)
+ * @author drunken
  */
 
 const _ = require('lodash');
 
-let _isArrayObj = function (val) {
+let _isArrayObj =(val)=> {
     if (!_.isArray(val)) {
         return true;
     }
@@ -15,7 +15,9 @@ let _isArrayObj = function (val) {
     return isObject;
 };
 
-let MongoHelpers = {
+var MongoHelpers = {
+
+
     /**
      * 将一个文档扁平化，例如，使用该方法处理对象{a: {b: [{aa: 1, bb: 1}]}}，将会获得{'a.b.0.aa': 1, 'a.b.0.bb': 1}
      * @param obj

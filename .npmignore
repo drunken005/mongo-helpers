@@ -1,0 +1,11 @@
+logs/
+npm-debug.log
+node_modules/
+.idea/
+run/
+.DS_Store
+*.swp
+.git
+.babelrc
+src/
+.travis.yml

@@ -1,10 +1,12 @@
 {
   "name": "mongo-helpers",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "The supporting API for mongodb data and collection operations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
   },
   "keywords": [
     "mongo",
@@ -25,5 +27,14 @@
   "bugs": {
     "url": "https://github.com/drunken005/mongo-helpers/issues"
   },
-  "homepage": "https://github.com/drunken005/mongo-helpers#readme"
+  "homepage": "https://github.com/drunken005/mongo-helpers#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "core-js": "^2.5.1",
+    "es2015": "0.0.0",
+    "babel-cli": "^6.26.0"
+  }
 }
