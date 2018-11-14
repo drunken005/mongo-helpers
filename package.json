@@ -1,6 +1,6 @@
 {
   "name": "mongo-helpers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "The supporting API for mongodb data and collection operations",
   "main": "index.js",
   "scripts": {
