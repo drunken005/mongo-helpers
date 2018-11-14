@@ -154,8 +154,8 @@ var MongoHelpers = {
         }
         falsy = falsy || [null, undefined];
 
-        let keys = _.keys(base);
-        mirror = mirror && _.pick(mirror, keys);
+        // let keys = _.keys(base);
+        // mirror = mirror && _.pick(mirror, keys);
         traverse(base, mirror, null, (val, mv, key, paths, {obj, mir}, objHasKey, mirHasKey) =>
             callback({
                 key: paths.join('.'),
